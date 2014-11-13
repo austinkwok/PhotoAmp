@@ -12,3 +12,7 @@ mmAPI::mmAPI(void)
 mmAPI::~mmAPI(void)
 {
 }
+
+string mmAPI::getLyrics(string songName, string artistName){
+	return "lyrics will go here";
+}
