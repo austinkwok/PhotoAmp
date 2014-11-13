@@ -13,6 +13,12 @@ mmAPI::~mmAPI(void)
 {
 }
 
-string mmAPI::getLyrics(string songName, string artistName){
+int mmAPI::getTrackID(string trackName, string artistName){
+	//https://developer.musixmatch.com/documentation/api-reference/track-search
+	return 1;
+}
+
+string mmAPI::getLyrics(int trackID){
+	//https://developer.musixmatch.com/documentation/api-reference/track-lyrics-get
 	return "lyrics will go here";
 }
