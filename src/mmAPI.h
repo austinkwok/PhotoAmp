@@ -9,7 +9,8 @@ public:
 	mmAPI(void);
 	~mmAPI(void);
 
-	string getLyrics(string songName, string artistName);
+	int getTrackID(string trackName, string artistName);
+	string getLyrics(int trackID);
 
 private:
 	static const std::string API_KEY;
